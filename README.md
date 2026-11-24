@@ -26,6 +26,8 @@ Requirements: Docker Desktop.
 - Read the API: `curl http://localhost:8080/wp-json/inquiries/v1/list`
 - Check your webhook receiver for a POST with the JSON payload and signature header
 
+![Webhook received on webhook.site](docs/webhook-demo.png)
+
 ## Verifying the signature (receiver side)
 
 ```php
